@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+.container{
+    position:absolute;
+    top:10%;
+    left: 35%;
+    color:aliceblue;
+    font-size: 80px;
+   /* transform: translate(-50% -50%);*/
+   margin-bottom: 0px;
+}
+
+
+.container{
+    display:grid;
+    place-items: center;
+}
+h2{
+    font-size: 100px;
+}
+.time{
+    color:white;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.clock, .alarm{
+    display: flex;
+    place-items: center;
+    margin-left: 55px;
+}
+.start, .first {
+    width: 120px;
+    height: 46px;
+    text-align: center;
+    background-color: blue;
+    border: 2px solid var(--app-blue);
+   /*box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;*/
+    border-radius: 20px;
+    /*position: fixed;
+    inset:auto 50px 50px auto;*/
+    color:#fff;
+    font-size: 18px;
+   
+    color:#fff;
+    font-size: 18px;
+    margin: 20px;
+ }
+
+ 
+input[type="text"] {
+
+    height: 48px;
+    padding: 0 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+  }
+  .button{
+    display:flex;
+    place-items: center;
+    margin-left: 70px;
+  }
+
+  .icon{
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 0px;
+  }
+
+  .alarm{
+    margin-left: 85px;
+    margin-bottom: 80px;
+  }
+
+  .none{
+    display: none;
+  }
