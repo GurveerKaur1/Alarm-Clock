@@ -6,5 +6,5 @@ An alarm clock made with JavaScript.
 
 Click [here]( https://gurveerkaur1.github.io/Alarm-Clock/) to check.
 
-<br />
+
 
