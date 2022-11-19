@@ -39,7 +39,7 @@ h2{
     background-color: blue;
     border: 2px solid var(--app-blue);
    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;*/
-    border-radius: 20px;
+    border-radius: 4px;
     /*position: fixed;
     inset:auto 50px 50px auto;*/
     color:#fff;
