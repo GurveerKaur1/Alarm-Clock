@@ -27,7 +27,7 @@ start.type = 'audio/mp3';
 function getDate(){
     let time = new Date();
     let seconds = time.getSeconds().toString().padStart(2, '0');
-    let hours = time.getHours();
+    let hours = time.getHours()
     let minutes = time.getMinutes().toString().padStart(2, '0');
 
     document.querySelector('.hours').innerHTML = hours;
@@ -43,6 +43,7 @@ function getDate(){
 
     }
 
+   
     
     
     
