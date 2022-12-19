@@ -112,4 +112,8 @@ input[type="text"] {
   .time{
    font-size: 50px;
   }
+
+  .none p{
+    font-size: 14px;
+  }
 }
